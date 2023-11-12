@@ -1,0 +1,263 @@
+.section-tecnologia {
+    padding: 7em 0;
+    clear: both;
+    position: relative;
+}
+  
+@media screen and (max-width: 768px) {
+    .section-tecnologia {
+      padding: 2em 0;
+    }
+}
+
+.section-tecnologia.border-bottom {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.container-tecnologia {
+max-width: 1100px;
+position: relative;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.font-tecnologia {
+    font-family: "Kaushan Script", cursive;
+}
+
+.cor-fonte {
+    color: black !important;
+}
+
+.heading-tecnologia {
+    margin-bottom: 5em;
+}
+
+.heading-tecnologia.heading-tecnologia-sm {
+margin-bottom: 2em;
+}
+
+.heading-tecnologia h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #000;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .heading-tecnologia h2 {
+      font-size: 26px;
+    }
+}
+
+.heading-tecnologia p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.card-tecnologia {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 7;
+    bottom: 0;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.card-tecnologia figure {
+height: 240px;
+z-index: 12;
+position: relative;
+}
+
+
+
+.card-tecnologia figure .overlay {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+.card-tecnologia figure .overlay i {
+    z-index: 12;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -45px;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.card-tecnologia img {
+    z-index: 8;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.card-tecnologia .card-texto-tecnologia {
+    padding: 0px 10px 10px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 22;
+}
+
+.card-tecnologia .card-texto-tecnologia:before {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    content: "";
+    background: #fff;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+.card-tecnologia .card-texto-tecnologia h2, .card-tecnologia .card-texto-tecnologia span {
+    text-decoration: none !important;
+}
+
+.card-tecnologia .card-texto-tecnologia h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px;
+    color: black;
+}
+
+.card-tecnologia .card-texto-tecnologia span {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-tecnologia .card-texto-tecnologia p {
+    color: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.card-tecnologia .card-texto-tecnologia span.price {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    font-size: 30px;
+    color: #2b6132;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.card-tecnologia:hover, .card-tecnologia:focus {
+    bottom: 7px;
+    text-decoration: none;
+}
+.card-tecnologia:hover img, .card-tecnologia:focus img {
+    -webkot-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.card-tecnologia:hover span.btn, .card-tecnologia:focus span.btn {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0px;
+    border: 2px solid #fcbe61 !important;
+    background: #fcbe61 !important;
+}
+
+.card-tecnologia:hover figure .overlay, .card-tecnologia:focus figure .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-tecnologia:hover figure .overlay i, .card-tecnologia:focus figure .overlay i {
+    margin-top: -15px;
+}
+
+.card-tecnologia:hover h2, .card-tecnologia:hover span, .card-tecnologia:focus h2, .card-tecnologia:focus span {
+    text-decoration: none !important;
+}
+
+
+.card-tecnologia .card-texto-tecnologia {
+    padding: 0px 10px 10px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 22;
+  }
+  
+.card-tecnologia .card-texto-tecnologia:before {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    content: "";
+    background: #fff;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+  
+.card-tecnologia .card-texto-tecnologia h2, .card-tecnologia .card-texto-tecnologia span {
+    text-decoration: none !important;
+}
+  
+.card-tecnologia .card-texto-tecnologia h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px;
+    color: #2b6132;
+}
+  
+.card-tecnologia .card-texto-tecnologia span {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
+.card-tecnologia .card-texto-tecnologia p {
+    color: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+  
+.card-tecnologia .card-texto-tecnologia span.price {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    font-size: 30px;
+    color: #2b6132;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
